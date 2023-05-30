@@ -3,15 +3,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nest{
+    padding: 1rem;
+}
+
 [class*="col"]{
     background-color: blue;
     color: white;
     border:1px solid white;
     text-align: center;
-    padding:1rem;
+    padding: 1rem;
 }
 
 [class*="col"] > .row > *{
     background-color: green;
 }
 
+section:nth-of-type(n + 2) [class*="col"]{
+
+}
