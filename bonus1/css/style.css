@@ -1,0 +1,19 @@
+[class*="col-"]{
+    height: 16.67px;
+}
+
+.outer-flame{
+    background-color: var(--outer-flame);
+}
+
+.inner-flame{
+    background-color: var(--inner-flame);
+}
+
+.wood{
+    background-color: var(--wood);
+}
+
+.outline{
+    background-color: var(--outline);
+}
