@@ -3,13 +3,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.nest{
+    padding: 1rem;
 }
 
-.my-row{
-    display: flex;
-    flex-wrap: wrap;
-    
+[class*="col"]{
+    background-color: blue;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+}
+
+[class*="col"] > .row > *{
+    background-color: green;
 }

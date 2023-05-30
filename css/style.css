@@ -30,25 +30,8 @@
     
 }
 
-/*-------DEBUG---------*/
-
-.debug{
-
-    background-color: aqua;
-    border: 3px dashed red;
+/* ZZZZZ */
+@media screen and(-width:) {
+    
 }
 
-.debug header{
-    background-color: goldenrod;
-    border: 3px dotted green;
-}
-
-.debug main{
-    background-color: crimson;
-    border: 3px solid blue;
-}
-
-.debug footer{
-    background-color: darkorange;
-    border: 3px dashed blueviolet;
-}
