@@ -152,14 +152,22 @@
     justify-content: flex-end;
 }
 
-.align-start{
-    align-items: flex-start;
+.space-between{
+    justify-content:space-between ;    
 }
 
-.align-center{
-    align-items: center;
+.space-around{
+    justify-content:space-around ;
 }
 
-.align-end{
-    align-items: flex-end;
+.self-align-start{
+    align-self: flex-start;
+}
+
+.self-align-center{
+    align-self: center;
+}
+
+.self-align-end{
+    align-self: flex-end;
 }
