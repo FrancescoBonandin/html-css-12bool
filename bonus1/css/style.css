@@ -17,3 +17,7 @@
 .outline{
     background-color: var(--outline);
 }
+
+.eyes{
+    background-color: var(--eyes);
+}
